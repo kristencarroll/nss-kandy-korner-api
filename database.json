@@ -1,0 +1,137 @@
+{
+    "locations": [
+        {
+            "id": 1,
+             "address": "6866 4th Court"
+        },
+        {
+            "id": 2,
+             "address": "21 Straubel Point"
+        },
+        {
+            "id": 3,
+             "address": "46273 Oak Trail"
+        },
+        {
+            "id": 4,
+             "address": "0993 Gulseth Avenue"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Cadbury Egg",
+            "price": 1.09,
+            "productTypeId": 1
+        },
+        {
+            "id": 2,
+            "name": "M & M",
+            "price": 2.35,
+            "productTypeId": 1
+        },
+        {
+            "id": 3,
+            "name": "Gummy Bears",
+            "price": 3.05,
+            "productTypeId": 2
+        },
+        {
+            "id": 4,
+            "name": "Spree",
+            "price": 1.15,
+            "productTypeId": 3
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Tom Schamberger",
+            "locationId": 3
+        },
+        {
+            "id": 2,
+            "name": "Rose Schmitt",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Tammy Green",
+            "locationId": 4
+        },
+        {
+            "id": 4,
+            "name": "Angel Envy",
+            "locationId": 2
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "name": "chocolate"
+        },
+        {
+            "id": 2,
+            "name": "gummy"
+        },
+        {
+            "id": 3,
+            "name": "hard candy"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Dion Stoade"
+        },
+        {
+            "id": 2,
+            "name": "Windy Thorneloe"
+        },
+        {
+            "id": 3,
+            "name": "Hillie Phillpotts"
+        },
+        {
+            "id": 4,
+            "name": "Jobye Danielou"
+        },
+        {
+            "id": 5,
+            "name": "Gabbie Schult"
+        }
+    ],
+    "productLocations": [
+        {
+            "id": 1,
+             "locationId": 2,
+             "productId": 3
+        },
+        {
+            "id": 2,
+             "locationId": 3,
+             "productId": 4
+        },{
+            "id": 3,
+             "locationId": 4,
+             "productId": 1
+        },{
+            "id": 4,
+             "locationId": 1,
+             "productId": 2
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "productId": 4,
+            "employeeId": 3,
+            "customerId": 5
+        }
+            
+    ]
+}   
+    
+
+
+
