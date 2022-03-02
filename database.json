@@ -2,19 +2,23 @@
     "locations": [
         {
             "id": 1,
-             "address": "6866 4th Court"
+            "town": "Hurricane Mills",
+            "streetAddress": "6866 4th Court"
         },
         {
             "id": 2,
-             "address": "21 Straubel Point"
+            "town": "Bucksnort",
+            "streetAddress": "21 Straubel Point"
         },
         {
             "id": 3,
-             "address": "46273 Oak Trail"
+            "town": "Poplar Grove",
+            "streetAddress": "46273 Oak Trail"
         },
         {
             "id": 4,
-             "address": "0993 Gulseth Avenue"
+            "town": "Gorman",
+            "streetAddress": "0993 Gulseth Avenue"
         }
     ],
     "products": [
