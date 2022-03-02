@@ -45,6 +45,30 @@
             "name": "Spree",
             "price": 1.15,
             "productTypeId": 3
+        },
+        {
+            "id": 5,
+            "name": "Swedish Fish",
+            "price": 4.25,
+            "productTypeId": 2
+        },
+        {
+            "id": 6,
+            "name": "A & W Soda",
+            "price": 1.79,
+            "productTypeId": 5
+        },
+        {
+            "id": 7,
+            "name": "Snickers",
+            "price": 3.05,
+            "productTypeId": 1
+        },
+        {
+            "id": 8,
+            "name": "Skittles",
+            "price": 2.14,
+            "productTypeId": 2
         }
     ],
     "employees": [
@@ -76,11 +100,19 @@
         },
         {
             "id": 2,
-            "name": "gummy"
+            "name": "fruity"
         },
         {
             "id": 3,
             "name": "hard candy"
+        },
+        {
+            "id": 4,
+            "name": "gum"
+        },
+        {
+            "id": 5,
+            "name": "soda"
         }
     ],
     "customers": [
@@ -108,21 +140,21 @@
     "productLocations": [
         {
             "id": 1,
-             "locationId": 2,
-             "productId": 3
+            "locationId": 2,
+            "productId": 3
         },
         {
             "id": 2,
-             "locationId": 3,
-             "productId": 4
+            "locationId": 3,
+            "productId": 4
         },{
             "id": 3,
-             "locationId": 4,
-             "productId": 1
+            "locationId": 4,
+            "productId": 1
         },{
             "id": 4,
-             "locationId": 1,
-             "productId": 2
+            "locationId": 1,
+            "productId": 2
         }
     ],
     "purchases": [
