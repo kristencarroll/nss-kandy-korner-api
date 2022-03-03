@@ -75,44 +75,56 @@
         {
             "id": 1,
             "name": "Tom Schamberger",
-            "locationId": 3
+            "locationId": 3,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 17.25
         },
         {
             "id": 2,
             "name": "Rose Schmitt",
-            "locationId": 1
+            "locationId": 1,
+            "manager": true,
+            "fullTime": false,
+            "hourlyRate": 22.50
         },
         {
             "id": 3,
             "name": "Tammy Green",
-            "locationId": 4
+            "locationId": 4,
+            "manager": true,
+            "fullTime": true,
+            "hourlyRate": 25.50
         },
         {
             "id": 4,
             "name": "Angel Envy",
-            "locationId": 2
+            "locationId": 2,
+            "manager": false,
+            "fullTime": false,
+            "hourlyRate": 16.00
         }
     ],
     "productTypes": [
         {
             "id": 1,
-            "name": "chocolate"
+            "type": "chocolate"
         },
         {
             "id": 2,
-            "name": "fruity"
+            "type": "fruity"
         },
         {
             "id": 3,
-            "name": "hard candy"
+            "type": "hard candy"
         },
         {
             "id": 4,
-            "name": "gum"
+            "type": "gum"
         },
         {
             "id": 5,
-            "name": "soda"
+            "type": "soda"
         }
     ],
     "customers": [
@@ -161,8 +173,9 @@
         {
             "id": 1,
             "productId": 4,
-            "employeeId": 3,
-            "customerId": 5
+            "locationId": 3,
+            "customerId": 5,
+            "date": ""
         }
             
     ]
